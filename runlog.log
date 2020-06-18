@@ -1,0 +1,5 @@
+2020-06-03 18:36:43,117 test.py[line:216] DEBUG debug info
+2020-06-03 18:36:43,118 test.py[line:217] INFO info
+2020-06-03 18:36:43,118 test.py[line:218] WARNING warning info
+2020-06-03 18:36:43,118 test.py[line:219] ERROR error info
+2020-06-03 18:36:43,118 test.py[line:220] CRITICAL critical info

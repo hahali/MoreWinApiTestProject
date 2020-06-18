@@ -1,0 +1,338 @@
+2020-06-05 11:29:16,334 do_excel.py[line:24] INFO 4
+2020-06-05 11:29:16,334 do_excel.py[line:69] INFO <class 'str'>
+2020-06-05 11:29:16,334 do_excel.py[line:69] INFO <class 'str'>
+2020-06-05 11:29:16,334 do_excel.py[line:24] INFO 3
+2020-06-05 11:29:16,335 do_excel.py[line:44] INFO <class 'str'>
+2020-06-05 11:29:16,335 do_excel.py[line:44] INFO <class 'str'>
+2020-06-05 11:29:16,335 do_excel.py[line:24] INFO 2
+2020-06-05 11:29:16,358 do_excel.py[line:39] INFO tel数据类型：<class 'int'>
+2020-06-05 11:29:31,339 do_excel.py[line:44] INFO <class 'str'>
+2020-06-05 11:29:31,339 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'login'}, {'id': 2, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "1892750989555","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '手機號或密碼錯誤', 'expect': 500, 'sheet_name': 'login'}, {'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'community'}, {'id': 2, 'method': 'post', 'url': '/community/reply', 'header': '{"Content-Type":"application/json","token":"${token}"}', 'data': '{"content":"接口自动评论","category":1,"id":193}', 'tital': 'code:200', 'expect': 200, 'sheet_name': 'community'}, {'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500014","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-05 11:29:31,363 do_excel.py[line:115] INFO 18927500015
+2020-06-05 11:29:31,363 do_excel.py[line:116] INFO <class 'int'>
+2020-06-05 11:30:43,627 do_excel.py[line:24] INFO 4
+2020-06-05 11:30:43,627 do_excel.py[line:69] INFO <class 'str'>
+2020-06-05 11:30:43,627 do_excel.py[line:69] INFO <class 'str'>
+2020-06-05 11:30:43,627 do_excel.py[line:24] INFO 3
+2020-06-05 11:30:43,627 do_excel.py[line:44] INFO <class 'str'>
+2020-06-05 11:30:43,627 do_excel.py[line:44] INFO <class 'str'>
+2020-06-05 11:30:43,627 do_excel.py[line:24] INFO 2
+2020-06-05 11:30:43,650 do_excel.py[line:39] INFO tel数据类型：<class 'int'>
+2020-06-05 11:30:44,750 do_excel.py[line:44] INFO <class 'str'>
+2020-06-05 11:30:44,750 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'login'}, {'id': 2, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "1892750989555","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '手機號或密碼錯誤', 'expect': 500, 'sheet_name': 'login'}, {'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'community'}, {'id': 2, 'method': 'post', 'url': '/community/reply', 'header': '{"Content-Type":"application/json","token":"${token}"}', 'data': '{"content":"接口自动评论","category":1,"id":193}', 'tital': 'code:200', 'expect': 200, 'sheet_name': 'community'}, {'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500015","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-05 11:32:46,593 do_excel.py[line:24] INFO 4
+2020-06-05 11:32:46,593 do_excel.py[line:69] INFO <class 'str'>
+2020-06-05 11:32:46,593 do_excel.py[line:69] INFO <class 'str'>
+2020-06-05 11:32:46,593 do_excel.py[line:24] INFO 3
+2020-06-05 11:32:46,593 do_excel.py[line:44] INFO <class 'str'>
+2020-06-05 11:32:46,593 do_excel.py[line:44] INFO <class 'str'>
+2020-06-05 11:32:46,593 do_excel.py[line:24] INFO 2
+2020-06-05 11:32:46,620 do_excel.py[line:39] INFO tel数据类型：<class 'int'>
+2020-06-05 11:32:55,019 do_excel.py[line:44] INFO <class 'str'>
+2020-06-05 11:32:55,020 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'login'}, {'id': 2, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "1892750989555","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '手機號或密碼錯誤', 'expect': 500, 'sheet_name': 'login'}, {'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'community'}, {'id': 2, 'method': 'post', 'url': '/community/reply', 'header': '{"Content-Type":"application/json","token":"${token}"}', 'data': '{"content":"接口自动评论","category":1,"id":193}', 'tital': 'code:200', 'expect': 200, 'sheet_name': 'community'}, {'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500016","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-05 11:32:55,050 test_http_request.py[line:48] INFO 'token'
+2020-06-05 11:32:55,153 test_http_request.py[line:57] INFO 登录接口返回的token值：5ff6afd457ac463ea108eb84e55c8527
+2020-06-05 11:32:55,153 test_http_request.py[line:62] INFO expected '}' before end of string
+2020-06-05 11:32:55,241 test_http_request.py[line:48] INFO 'token'
+2020-06-05 11:32:55,303 test_http_request.py[line:62] INFO 'token'
+2020-06-05 11:32:55,386 test_http_request.py[line:48] INFO 'token'
+2020-06-05 11:32:55,543 test_http_request.py[line:57] INFO 登录接口返回的token值：267348940e624924a48eadf5c718280b
+2020-06-05 11:32:55,543 test_http_request.py[line:62] INFO expected '}' before end of string
+2020-06-05 11:32:55,633 test_http_request.py[line:36] INFO 查看替换前的token值：${token}
+2020-06-05 11:32:55,662 test_http_request.py[line:42] INFO 替换后的token值：267348940e624924a48eadf5c718280b
+2020-06-05 11:32:55,662 test_http_request.py[line:43] INFO 替换token后header的值：{'Content-Type': 'application/json', 'token': '267348940e624924a48eadf5c718280b'}
+2020-06-05 11:32:55,724 test_http_request.py[line:46] INFO 评论接口返回的结果：{'code': 200, 'msg': '', 'data': ''}
+2020-06-05 11:32:55,724 test_http_request.py[line:62] INFO string indices must be integers
+2020-06-05 11:32:55,821 test_http_request.py[line:48] INFO 'token'
+2020-06-05 11:32:55,915 test_http_request.py[line:57] INFO 登录接口返回的token值：a67e036b75eb4153b00e295d1e48c421
+2020-06-05 11:32:55,915 test_http_request.py[line:62] INFO expected '}' before end of string
+2020-06-05 11:35:01,847 do_excel.py[line:24] INFO 4
+2020-06-05 11:35:01,847 do_excel.py[line:69] INFO <class 'str'>
+2020-06-05 11:35:01,847 do_excel.py[line:69] INFO <class 'str'>
+2020-06-05 11:35:01,847 do_excel.py[line:24] INFO 3
+2020-06-05 11:35:01,847 do_excel.py[line:44] INFO <class 'str'>
+2020-06-05 11:35:01,847 do_excel.py[line:44] INFO <class 'str'>
+2020-06-05 11:35:01,847 do_excel.py[line:24] INFO 2
+2020-06-05 11:35:01,872 do_excel.py[line:39] INFO tel数据类型：<class 'int'>
+2020-06-05 11:35:05,203 do_excel.py[line:44] INFO <class 'str'>
+2020-06-05 11:35:05,203 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'login'}, {'id': 2, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "1892750989555","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '手機號或密碼錯誤', 'expect': 500, 'sheet_name': 'login'}, {'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'community'}, {'id': 2, 'method': 'post', 'url': '/community/reply', 'header': '{"Content-Type":"application/json","token":"${token}"}', 'data': '{"content":"接口自动评论","category":1,"id":193}', 'tital': 'code:200', 'expect': 200, 'sheet_name': 'community'}, {'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500017","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-05 11:35:05,244 test_http_request.py[line:42] INFO 替换后的token值：None
+2020-06-05 11:35:05,244 test_http_request.py[line:43] INFO 替换token后header的值：{'Content-Type': 'application/json', 'token': None}
+2020-06-05 11:35:05,340 test_http_request.py[line:46] INFO 评论接口返回的结果：{'code': 200, 'msg': '', 'data': {'id': 3800116, 'phone': '18927509566', 'nickname': '凯旋测试账号', 'avatar': 'https://memberfiles.kk1359.com/images/headPortrait/heard_gh8.png', 'state': 1, 'nicknameState': 2, 'roleGroup': 1, 'email': None, 'createTime': '2019-03-19T16:52:43', 'createIp': 0, 'areaCode': '86', 'channel': 999999, 'roles': [{'role': 2, 'level': 0}, {'role': 6, 'level': 0}, {'role': 8, 'level': 0}, {'role': 7, 'level': 0}, {'role': 1, 'level': 0}], 'token': 'ac0fb4e7aeae4c3783c92c3ef5e68ad3', 'followCount': 11, 'fansCount': 310, 'balance': 98229, 'income': 1, 'totalRecharge': 0, 'roleIds': [2, 6, 8, 7, 1], 'privs': ['send_img', 'at_say', 'top', 'no_send_length', 'no_send_repeat', 'top', 'no_filter_dic', 'set_room_admin', 'kickoff', 'bbs_room_black', 'no_replace_dic', 'no_black_dic', 'shield_msg', 'no_day_chat_limit', 'no_limit_say', 'at_say', 'say_everyone_see', 'see_everyone_say', 'no_send_interval', 'send_url', 'send_img', 'can_black_self', 'at_more', 'pull_black', 'black_member', 'warning_member', 'post_dynamic', 'post_article', 'no_day_chat_limit', 'at_say'], 'groupInfo': {'roleId': 2, 'roleName': '主播', 'showTag': True, 'tagColor': '#0297E9', 'showTextColor': True, 'textColor': '#E90734'}}}
+2020-06-05 11:35:05,340 test_http_request.py[line:57] INFO 登录接口返回的token值：ac0fb4e7aeae4c3783c92c3ef5e68ad3
+2020-06-05 11:35:05,340 test_http_request.py[line:62] INFO expected '}' before end of string
+2020-06-05 11:35:05,439 test_http_request.py[line:42] INFO 替换后的token值：ac0fb4e7aeae4c3783c92c3ef5e68ad3
+2020-06-05 11:35:05,440 test_http_request.py[line:43] INFO 替换token后header的值：{'Content-Type': 'application/json', 'token': 'ac0fb4e7aeae4c3783c92c3ef5e68ad3'}
+2020-06-05 11:35:05,493 test_http_request.py[line:46] INFO 评论接口返回的结果：{'code': 500, 'msg': '手機號或密碼錯誤', 'data': {}}
+2020-06-05 11:35:05,493 test_http_request.py[line:62] INFO 'token'
+2020-06-05 11:35:05,586 test_http_request.py[line:42] INFO 替换后的token值：ac0fb4e7aeae4c3783c92c3ef5e68ad3
+2020-06-05 11:35:05,586 test_http_request.py[line:43] INFO 替换token后header的值：{'Content-Type': 'application/json', 'token': 'ac0fb4e7aeae4c3783c92c3ef5e68ad3'}
+2020-06-05 11:35:05,663 test_http_request.py[line:46] INFO 评论接口返回的结果：{'code': 200, 'msg': '', 'data': {'id': 3800116, 'phone': '18927509566', 'nickname': '凯旋测试账号', 'avatar': 'https://memberfiles.kk1359.com/images/headPortrait/heard_gh8.png', 'state': 1, 'nicknameState': 2, 'roleGroup': 1, 'email': None, 'createTime': '2019-03-19T16:52:43', 'createIp': 0, 'areaCode': '86', 'channel': 999999, 'roles': [{'role': 2, 'level': 0}, {'role': 6, 'level': 0}, {'role': 8, 'level': 0}, {'role': 7, 'level': 0}, {'role': 1, 'level': 0}], 'token': '1c5acc4fc8db4103801856d27bd45493', 'followCount': 11, 'fansCount': 310, 'balance': 98229, 'income': 1, 'totalRecharge': 0, 'roleIds': [2, 6, 8, 7, 1], 'privs': ['send_img', 'at_say', 'top', 'no_send_length', 'no_send_repeat', 'top', 'no_filter_dic', 'set_room_admin', 'kickoff', 'bbs_room_black', 'no_replace_dic', 'no_black_dic', 'shield_msg', 'no_day_chat_limit', 'no_limit_say', 'at_say', 'say_everyone_see', 'see_everyone_say', 'no_send_interval', 'send_url', 'send_img', 'can_black_self', 'at_more', 'pull_black', 'black_member', 'warning_member', 'post_dynamic', 'post_article', 'no_day_chat_limit', 'at_say'], 'groupInfo': {'roleId': 2, 'roleName': '主播', 'showTag': True, 'tagColor': '#0297E9', 'showTextColor': True, 'textColor': '#E90734'}}}
+2020-06-05 11:35:05,663 test_http_request.py[line:57] INFO 登录接口返回的token值：1c5acc4fc8db4103801856d27bd45493
+2020-06-05 11:35:05,663 test_http_request.py[line:62] INFO expected '}' before end of string
+2020-06-05 11:35:05,764 test_http_request.py[line:42] INFO 替换后的token值：1c5acc4fc8db4103801856d27bd45493
+2020-06-05 11:35:05,764 test_http_request.py[line:43] INFO 替换token后header的值：{'Content-Type': 'application/json', 'token': '1c5acc4fc8db4103801856d27bd45493'}
+2020-06-05 11:35:05,833 test_http_request.py[line:46] INFO 评论接口返回的结果：{'code': 200, 'msg': '', 'data': ''}
+2020-06-05 11:35:05,833 test_http_request.py[line:62] INFO string indices must be integers
+2020-06-05 11:35:05,933 test_http_request.py[line:42] INFO 替换后的token值：1c5acc4fc8db4103801856d27bd45493
+2020-06-05 11:35:05,933 test_http_request.py[line:43] INFO 替换token后header的值：{'Content-Type': 'application/json', 'token': '1c5acc4fc8db4103801856d27bd45493'}
+2020-06-05 11:35:06,031 test_http_request.py[line:46] INFO 评论接口返回的结果：{'code': 200, 'msg': '', 'data': {'id': 3803428, 'phone': '18927500017', 'nickname': 'KX500017', 'avatar': 'https://memberfiles.kk1359.com/images/headPortrait/heard_gh10.png', 'state': 1, 'nicknameState': 1, 'roleGroup': 1, 'email': None, 'createTime': '2020-06-05T11:35:37', 'createIp': 0, 'areaCode': '86', 'channel': 999999, 'roles': [{'role': 1, 'level': 0}], 'token': '5384a74f54b044d6b8b030c1ea513ca3', 'bindState': False, 'followCount': 0, 'fansCount': 0, 'balance': 0, 'income': 0, 'totalRecharge': 0, 'roleIds': [1], 'privs': ['no_day_chat_limit', 'at_say'], 'groupInfo': {'roleId': 1, 'roleName': '會員', 'showTag': False, 'tagColor': '#FF8E51', 'showTextColor': False, 'textColor': '#FF8E51'}}}
+2020-06-05 11:35:06,031 test_http_request.py[line:57] INFO 登录接口返回的token值：5384a74f54b044d6b8b030c1ea513ca3
+2020-06-05 11:35:06,032 test_http_request.py[line:62] INFO expected '}' before end of string
+2020-06-05 11:40:13,737 do_excel.py[line:24] INFO 4
+2020-06-05 11:40:13,737 do_excel.py[line:69] INFO <class 'str'>
+2020-06-05 11:40:13,737 do_excel.py[line:69] INFO <class 'str'>
+2020-06-05 11:40:13,737 do_excel.py[line:24] INFO 3
+2020-06-05 11:40:13,737 do_excel.py[line:44] INFO <class 'str'>
+2020-06-05 11:40:13,737 do_excel.py[line:44] INFO <class 'str'>
+2020-06-05 11:40:13,738 do_excel.py[line:24] INFO 2
+2020-06-05 11:40:13,765 do_excel.py[line:39] INFO tel数据类型：<class 'int'>
+2020-06-05 11:40:18,482 do_excel.py[line:44] INFO <class 'str'>
+2020-06-05 11:40:18,483 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'login'}, {'id': 2, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "1892750989555","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '手機號或密碼錯誤', 'expect': 500, 'sheet_name': 'login'}, {'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'community'}, {'id': 2, 'method': 'post', 'url': '/community/reply', 'header': '{"Content-Type":"application/json","token":"${token}"}', 'data': '{"content":"接口自动评论","category":1,"id":193}', 'tital': 'code:200', 'expect': 200, 'sheet_name': 'community'}, {'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500018","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-05 11:40:18,511 test_http_request.py[line:48] INFO 'token'
+2020-06-05 11:40:18,641 test_http_request.py[line:57] INFO 登录接口返回的token值：cd7e4301396a4e92ad7bf0e8c975e7bf
+2020-06-05 11:40:18,641 test_http_request.py[line:62] INFO expected '}' before end of string
+2020-06-05 11:40:35,837 test_http_request.py[line:48] INFO 'token'
+2020-06-05 11:40:35,895 test_http_request.py[line:62] INFO 'token'
+2020-06-05 11:40:36,005 test_http_request.py[line:48] INFO 'token'
+2020-06-05 11:40:36,113 test_http_request.py[line:57] INFO 登录接口返回的token值：ab0987c99a8440e9be630b62956bfb37
+2020-06-05 11:40:36,113 test_http_request.py[line:62] INFO expected '}' before end of string
+2020-06-05 11:40:36,195 test_http_request.py[line:42] INFO 替换后的token值：ab0987c99a8440e9be630b62956bfb37
+2020-06-05 11:40:36,195 test_http_request.py[line:43] INFO 替换token后header的值：{'Content-Type': 'application/json', 'token': 'ab0987c99a8440e9be630b62956bfb37'}
+2020-06-05 11:40:36,259 test_http_request.py[line:46] INFO 评论接口返回的结果：{'code': 200, 'msg': '', 'data': ''}
+2020-06-05 11:40:36,259 test_http_request.py[line:62] INFO string indices must be integers
+2020-06-05 11:40:36,353 test_http_request.py[line:48] INFO 'token'
+2020-06-05 11:40:36,438 test_http_request.py[line:57] INFO 登录接口返回的token值：dcee5ddc63354cf3897acbf30d2f863d
+2020-06-05 11:40:36,439 test_http_request.py[line:62] INFO expected '}' before end of string
+2020-06-05 11:43:29,662 do_excel.py[line:24] INFO 4
+2020-06-05 11:43:29,662 do_excel.py[line:69] INFO <class 'str'>
+2020-06-05 11:43:29,662 do_excel.py[line:69] INFO <class 'str'>
+2020-06-05 11:43:29,663 do_excel.py[line:24] INFO 3
+2020-06-05 11:43:29,663 do_excel.py[line:44] INFO <class 'str'>
+2020-06-05 11:43:29,663 do_excel.py[line:44] INFO <class 'str'>
+2020-06-05 11:43:29,663 do_excel.py[line:24] INFO 2
+2020-06-05 11:43:29,689 do_excel.py[line:39] INFO tel数据类型：<class 'int'>
+2020-06-05 11:43:30,605 do_excel.py[line:44] INFO <class 'str'>
+2020-06-05 11:43:30,605 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'login'}, {'id': 2, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "1892750989555","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '手機號或密碼錯誤', 'expect': 500, 'sheet_name': 'login'}, {'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'community'}, {'id': 2, 'method': 'post', 'url': '/community/reply', 'header': '{"Content-Type":"application/json","token":"${token}"}', 'data': '{"content":"接口自动评论","category":1,"id":193}', 'tital': 'code:200', 'expect': 200, 'sheet_name': 'community'}, {'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500019","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-05 11:43:30,631 test_http_request.py[line:48] INFO 'token'
+2020-06-05 11:43:30,725 test_http_request.py[line:57] INFO 登录接口返回的token值：c9997e6cd2ab4acdb007b6941b250897
+2020-06-05 11:43:30,725 test_http_request.py[line:62] INFO expected '}' before end of string
+2020-06-05 11:43:30,808 test_http_request.py[line:48] INFO 'token'
+2020-06-05 11:43:30,861 test_http_request.py[line:62] INFO 'token'
+2020-06-05 11:43:30,941 test_http_request.py[line:48] INFO 'token'
+2020-06-05 11:43:31,008 test_http_request.py[line:57] INFO 登录接口返回的token值：5fad672f022b4004a8d4b69938053933
+2020-06-05 11:43:31,008 test_http_request.py[line:62] INFO expected '}' before end of string
+2020-06-05 11:43:31,093 test_http_request.py[line:42] INFO 替换后的token值：5fad672f022b4004a8d4b69938053933
+2020-06-05 11:43:31,093 test_http_request.py[line:43] INFO 替换token后header的值：{'Content-Type': 'application/json', 'token': '5fad672f022b4004a8d4b69938053933'}
+2020-06-05 11:43:31,154 test_http_request.py[line:46] INFO 评论接口返回的结果：{'code': 200, 'msg': '', 'data': ''}
+2020-06-05 11:43:31,154 test_http_request.py[line:62] INFO string indices must be integers
+2020-06-05 11:43:31,246 test_http_request.py[line:48] INFO 'token'
+2020-06-05 11:43:31,347 test_http_request.py[line:57] INFO 登录接口返回的token值：8fded925397a4cd6ab057efb4695732f
+2020-06-05 11:43:31,347 test_http_request.py[line:62] INFO expected '}' before end of string
+2020-06-05 11:51:39,801 do_excel.py[line:24] INFO 4
+2020-06-05 11:51:39,801 do_excel.py[line:69] INFO <class 'str'>
+2020-06-05 11:51:39,801 do_excel.py[line:69] INFO <class 'str'>
+2020-06-05 11:51:39,801 do_excel.py[line:24] INFO 3
+2020-06-05 11:51:39,801 do_excel.py[line:44] INFO <class 'str'>
+2020-06-05 11:51:39,801 do_excel.py[line:44] INFO <class 'str'>
+2020-06-05 11:51:39,801 do_excel.py[line:24] INFO 2
+2020-06-05 11:51:39,825 do_excel.py[line:39] INFO tel数据类型：<class 'int'>
+2020-06-05 11:51:53,971 do_excel.py[line:44] INFO <class 'str'>
+2020-06-05 11:51:53,971 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'login'}, {'id': 2, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "1892750989555","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '手機號或密碼錯誤', 'expect': 500, 'sheet_name': 'login'}, {'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'community'}, {'id': 2, 'method': 'post', 'url': '/community/reply', 'header': '{"Content-Type":"application/json","token":"${token}"}', 'data': '{"content":"接口自动评论","category":1,"id":193}', 'tital': 'code:200', 'expect': 200, 'sheet_name': 'community'}, {'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500020","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-05 11:51:53,972 run.py[line:40] INFO start run test case...
+2020-06-05 11:51:53,996 test_http_request.py[line:48] INFO 'token'
+2020-06-05 11:51:54,147 test_http_request.py[line:57] INFO 登录接口返回的token值：ee93fa7730e043099d250de19ed2b397
+2020-06-05 11:51:54,148 test_http_request.py[line:62] INFO expected '}' before end of string
+2020-06-05 11:51:54,291 test_http_request.py[line:48] INFO 'token'
+2020-06-05 11:51:54,346 test_http_request.py[line:62] INFO 'token'
+2020-06-05 11:51:54,429 test_http_request.py[line:48] INFO 'token'
+2020-06-05 11:51:54,509 test_http_request.py[line:57] INFO 登录接口返回的token值：f206ff129f6e44cb88e4acd020518ebe
+2020-06-05 11:51:54,509 test_http_request.py[line:62] INFO expected '}' before end of string
+2020-06-05 11:51:54,589 test_http_request.py[line:48] INFO name 'unicode' is not defined
+2020-06-05 11:51:54,738 test_http_request.py[line:62] INFO 'token'
+2020-06-05 11:51:54,850 test_http_request.py[line:48] INFO 'token'
+2020-06-05 11:51:54,977 test_http_request.py[line:57] INFO 登录接口返回的token值：ca93a8c104534f83bc74c668c3921868
+2020-06-05 11:51:54,978 test_http_request.py[line:62] INFO expected '}' before end of string
+2020-06-08 15:29:27,289 do_excel.py[line:24] INFO 4
+2020-06-08 15:29:27,304 do_excel.py[line:69] INFO <class 'str'>
+2020-06-08 15:29:27,304 do_excel.py[line:69] INFO <class 'str'>
+2020-06-08 15:29:27,304 do_excel.py[line:24] INFO 3
+2020-06-08 15:29:27,304 do_excel.py[line:44] INFO <class 'str'>
+2020-06-08 15:29:27,304 do_excel.py[line:44] INFO <class 'str'>
+2020-06-08 15:29:27,304 do_excel.py[line:24] INFO 2
+2020-06-08 15:29:27,329 do_excel.py[line:39] INFO tel数据类型：<class 'int'>
+2020-06-08 15:29:29,070 do_excel.py[line:44] INFO <class 'str'>
+2020-06-08 15:29:29,070 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'login'}, {'id': 2, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "1892750989555","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '手機號或密碼錯誤', 'expect': 500, 'sheet_name': 'login'}, {'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'community'}, {'id': 2, 'method': 'post', 'url': '/community/reply', 'header': '{"Content-Type":"application/json","token":"${token}"}', 'data': '{"content":"接口自动评论","category":1,"id":193}', 'tital': 'code:200', 'expect': 200, 'sheet_name': 'community'}, {'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500021","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-08 15:29:29,096 do_excel.py[line:115] INFO 18927500022
+2020-06-08 15:29:29,096 do_excel.py[line:116] INFO <class 'int'>
+2020-06-08 16:43:07,663 do_excel.py[line:24] INFO 4
+2020-06-08 16:43:07,663 do_excel.py[line:69] INFO <class 'str'>
+2020-06-08 16:43:07,663 do_excel.py[line:69] INFO <class 'str'>
+2020-06-08 16:43:07,663 do_excel.py[line:24] INFO 3
+2020-06-08 16:43:07,663 do_excel.py[line:44] INFO <class 'str'>
+2020-06-08 16:43:07,663 do_excel.py[line:44] INFO <class 'str'>
+2020-06-08 16:43:07,663 do_excel.py[line:24] INFO 2
+2020-06-08 16:43:07,694 do_excel.py[line:39] INFO tel数据类型：<class 'int'>
+2020-06-08 16:43:15,657 do_excel.py[line:44] INFO <class 'str'>
+2020-06-08 16:43:15,657 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'login'}, {'id': 2, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "1892750989555","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '手機號或密碼錯誤', 'expect': 500, 'sheet_name': 'login'}, {'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'community'}, {'id': 2, 'method': 'post', 'url': '/community/reply', 'header': '{"Content-Type":"application/json","token":"${token}"}', 'data': '{"content":"接口自动评论","category":1,"id":193}', 'tital': 'code:200', 'expect': 200, 'sheet_name': 'community'}, {'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500022","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-08 16:43:15,684 test_http_request.py[line:48] INFO 'token'
+2020-06-08 16:43:15,815 test_http_request.py[line:57] INFO 登录接口返回的token值：985de28927e944839f89a508aa36fb6b
+2020-06-08 16:43:15,815 test_http_request.py[line:62] INFO expected '}' before end of string
+2020-06-08 16:43:15,902 test_http_request.py[line:48] INFO 'token'
+2020-06-08 16:43:15,991 test_http_request.py[line:62] INFO 'token'
+2020-06-08 16:43:16,082 test_http_request.py[line:48] INFO 'token'
+2020-06-08 16:43:16,178 test_http_request.py[line:57] INFO 登录接口返回的token值：c01d15b0fd9741c79b7d576c8d2811a3
+2020-06-08 16:43:16,178 test_http_request.py[line:62] INFO expected '}' before end of string
+2020-06-08 16:43:16,263 test_http_request.py[line:42] INFO 替换后的token值：c01d15b0fd9741c79b7d576c8d2811a3
+2020-06-08 16:43:16,264 test_http_request.py[line:43] INFO 替换token后header的值：{'Content-Type': 'application/json', 'token': 'c01d15b0fd9741c79b7d576c8d2811a3'}
+2020-06-08 16:43:16,439 test_http_request.py[line:46] INFO 评论接口返回的结果：{'code': 200, 'msg': '', 'data': ''}
+2020-06-08 16:43:16,439 test_http_request.py[line:62] INFO string indices must be integers
+2020-06-08 16:43:16,564 test_http_request.py[line:48] INFO 'token'
+2020-06-08 16:43:16,869 test_http_request.py[line:57] INFO 登录接口返回的token值：8e6324abed2d4652a2858c72b988f365
+2020-06-08 16:43:16,869 test_http_request.py[line:62] INFO expected '}' before end of string
+2020-06-08 16:43:46,346 do_excel.py[line:24] INFO 4
+2020-06-08 16:43:46,346 do_excel.py[line:69] INFO <class 'str'>
+2020-06-08 16:43:46,346 do_excel.py[line:69] INFO <class 'str'>
+2020-06-08 16:43:46,346 do_excel.py[line:24] INFO 3
+2020-06-08 16:43:46,347 do_excel.py[line:44] INFO <class 'str'>
+2020-06-08 16:43:46,347 do_excel.py[line:44] INFO <class 'str'>
+2020-06-08 16:43:46,347 do_excel.py[line:24] INFO 2
+2020-06-08 16:43:46,417 do_excel.py[line:39] INFO tel数据类型：<class 'int'>
+2020-06-08 16:44:08,487 do_excel.py[line:44] INFO <class 'str'>
+2020-06-08 16:44:08,487 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'login'}, {'id': 2, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "1892750989555","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '手機號或密碼錯誤', 'expect': 500, 'sheet_name': 'login'}, {'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'community'}, {'id': 2, 'method': 'post', 'url': '/community/reply', 'header': '{"Content-Type":"application/json","token":"${token}"}', 'data': '{"content":"接口自动评论","category":1,"id":193}', 'tital': 'code:200', 'expect': 200, 'sheet_name': 'community'}, {'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500023","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-08 16:54:39,333 do_excel.py[line:24] INFO 4
+2020-06-08 16:54:39,333 do_excel.py[line:69] INFO <class 'str'>
+2020-06-08 16:54:39,333 do_excel.py[line:69] INFO <class 'str'>
+2020-06-08 16:54:39,333 do_excel.py[line:24] INFO 3
+2020-06-08 16:54:39,333 do_excel.py[line:44] INFO <class 'str'>
+2020-06-08 16:54:39,333 do_excel.py[line:44] INFO <class 'str'>
+2020-06-08 16:54:39,333 do_excel.py[line:24] INFO 2
+2020-06-08 16:54:39,358 do_excel.py[line:39] INFO tel数据类型：<class 'int'>
+2020-06-08 16:54:53,823 do_excel.py[line:44] INFO <class 'str'>
+2020-06-08 16:54:53,824 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'login'}, {'id': 2, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "1892750989555","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '手機號或密碼錯誤', 'expect': 500, 'sheet_name': 'login'}, {'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'community'}, {'id': 2, 'method': 'post', 'url': '/community/reply', 'header': '{"Content-Type":"application/json","token":"${token}"}', 'data': '{"content":"接口自动评论","category":1,"id":193}', 'tital': 'code:200', 'expect': 200, 'sheet_name': 'community'}, {'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500024","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-08 16:54:53,848 do_excel.py[line:115] INFO 18927500025
+2020-06-08 16:54:53,848 do_excel.py[line:116] INFO <class 'int'>
+2020-06-09 15:05:45,585 do_excel.py[line:24] INFO 4
+2020-06-09 15:05:45,595 do_excel.py[line:69] INFO <class 'str'>
+2020-06-09 15:05:45,595 do_excel.py[line:69] INFO <class 'str'>
+2020-06-09 15:05:45,595 do_excel.py[line:24] INFO 3
+2020-06-09 15:05:45,595 do_excel.py[line:44] INFO <class 'str'>
+2020-06-09 15:05:45,595 do_excel.py[line:44] INFO <class 'str'>
+2020-06-09 15:05:45,595 do_excel.py[line:24] INFO 2
+2020-06-09 15:05:45,620 do_excel.py[line:39] INFO tel数据类型：<class 'int'>
+2020-06-09 15:05:48,285 do_excel.py[line:44] INFO <class 'str'>
+2020-06-09 15:05:48,286 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'login'}, {'id': 2, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "1892750989555","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '手機號或密碼錯誤', 'expect': 500, 'sheet_name': 'login'}, {'id': 1, 'method': 'post', 'url': '/user/login', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927509566","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc"}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'community'}, {'id': 2, 'method': 'post', 'url': '/community/reply', 'header': '{"Content-Type":"application/json","token":"${token}"}', 'data': '{"content":"接口自动评论","category":1,"id":193}', 'tital': 'code:200', 'expect': 200, 'sheet_name': 'community'}, {'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500025","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-09 15:05:48,314 do_excel.py[line:115] INFO 18927500026
+2020-06-09 15:05:48,315 do_excel.py[line:116] INFO <class 'int'>
+2020-06-09 15:05:53,321 do_excel.py[line:24] INFO 4
+2020-06-09 15:07:37,232 do_excel.py[line:24] INFO 2
+2020-06-09 15:07:37,292 do_excel.py[line:39] INFO tel数据类型：<class 'int'>
+2020-06-09 15:08:02,566 do_excel.py[line:44] INFO <class 'str'>
+2020-06-09 15:08:02,566 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500026","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-09 15:08:02,633 do_excel.py[line:115] INFO 18927500027
+2020-06-09 15:08:02,633 do_excel.py[line:116] INFO <class 'int'>
+2020-06-09 15:08:02,737 do_excel.py[line:24] INFO 2
+2020-06-09 15:08:02,800 do_excel.py[line:39] INFO tel数据类型：<class 'int'>
+2020-06-09 15:08:03,019 do_excel.py[line:44] INFO <class 'str'>
+2020-06-09 15:08:03,019 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500027","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-09 15:08:03,085 do_excel.py[line:115] INFO 18927500028
+2020-06-09 15:08:03,086 do_excel.py[line:116] INFO <class 'int'>
+2020-06-09 15:08:09,241 do_excel.py[line:24] INFO 2
+2020-06-09 15:08:09,266 do_excel.py[line:39] INFO tel数据类型：<class 'int'>
+2020-06-09 15:08:33,820 do_excel.py[line:44] INFO <class 'str'>
+2020-06-09 15:08:33,820 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500028","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-09 15:08:33,849 do_excel.py[line:115] INFO 18927500029
+2020-06-09 15:08:33,849 do_excel.py[line:116] INFO <class 'int'>
+2020-06-09 15:09:24,191 do_excel.py[line:24] INFO 2
+2020-06-09 15:09:24,215 do_excel.py[line:39] INFO tel数据类型：<class 'int'>
+2020-06-09 15:09:40,125 do_excel.py[line:44] INFO <class 'str'>
+2020-06-09 15:09:40,125 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500029","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-09 15:09:40,150 do_excel.py[line:115] INFO 18927500030
+2020-06-09 15:09:40,151 do_excel.py[line:116] INFO <class 'int'>
+2020-06-09 15:10:32,111 do_excel.py[line:24] INFO 2
+2020-06-09 15:10:32,136 do_excel.py[line:39] INFO tel数据类型：<class 'int'>
+2020-06-09 15:10:43,313 do_excel.py[line:44] INFO <class 'str'>
+2020-06-09 15:10:43,313 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500030","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-09 15:10:43,313 do_excel.py[line:114] INFO [{'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500030","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-09 15:10:43,337 do_excel.py[line:116] INFO 18927500031
+2020-06-09 15:10:43,337 do_excel.py[line:117] INFO <class 'int'>
+2020-06-09 15:13:08,077 do_excel.py[line:24] INFO 2
+2020-06-09 15:13:08,102 do_excel.py[line:39] INFO tel数据类型：<class 'int'>
+2020-06-09 15:13:18,195 do_excel.py[line:44] INFO <class 'str'>
+2020-06-09 15:13:18,196 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500031","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-09 15:13:18,229 do_excel.py[line:116] INFO 18927500032
+2020-06-09 15:13:18,230 do_excel.py[line:117] INFO <class 'int'>
+2020-06-09 15:13:42,935 do_excel.py[line:24] INFO 2
+2020-06-09 15:13:42,994 do_excel.py[line:39] INFO tel数据类型：<class 'int'>
+2020-06-09 15:13:46,751 do_excel.py[line:44] INFO <class 'str'>
+2020-06-09 15:13:46,751 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500032","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-09 15:13:46,818 do_excel.py[line:116] INFO 18927500033
+2020-06-09 15:13:46,819 do_excel.py[line:117] INFO <class 'int'>
+2020-06-09 15:23:32,050 do_excel.py[line:24] INFO 2
+2020-06-09 15:25:10,422 do_excel.py[line:63] INFO tel数据类型：<class 'int'>
+2020-06-09 15:39:35,774 do_excel.py[line:24] INFO 2
+2020-06-09 15:39:35,800 do_excel.py[line:63] INFO tel数据类型：<class 'int'>
+2020-06-09 15:39:37,889 do_excel.py[line:69] INFO <class 'str'>
+2020-06-09 15:39:37,889 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "${iphone}","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-09 15:39:37,917 test_http_request.py[line:48] INFO 'token'
+2020-06-09 15:39:38,035 test_http_request.py[line:62] INFO 'token'
+2020-06-09 15:41:42,441 do_excel.py[line:24] INFO 2
+2020-06-09 15:41:42,466 do_excel.py[line:63] INFO tel数据类型：<class 'int'>
+2020-06-09 15:42:02,834 do_excel.py[line:69] INFO <class 'str'>
+2020-06-09 15:42:02,834 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "${iphone}","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-09 15:42:02,866 test_http_request.py[line:48] INFO 'token'
+2020-06-09 15:42:02,969 test_http_request.py[line:62] INFO 'token'
+2020-06-09 15:43:05,032 do_excel.py[line:24] INFO 2
+2020-06-09 15:43:05,056 do_excel.py[line:63] INFO tel数据类型：<class 'int'>
+2020-06-09 15:43:09,212 do_excel.py[line:69] INFO <class 'str'>
+2020-06-09 15:43:09,212 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "${iphone}","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-09 15:43:09,240 test_http_request.py[line:48] INFO 'token'
+2020-06-09 15:43:09,306 test_http_request.py[line:62] INFO 'token'
+2020-06-09 15:45:50,102 do_excel.py[line:24] INFO 2
+2020-06-09 15:45:50,128 do_excel.py[line:63] INFO tel数据类型：<class 'int'>
+2020-06-09 15:46:08,959 do_excel.py[line:69] INFO <class 'str'>
+2020-06-09 15:46:08,960 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "${iphone}","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-09 15:46:08,987 test_http_request.py[line:48] INFO 'token'
+2020-06-09 15:46:09,063 test_http_request.py[line:53] INFO 接口返回内容：{'code': 500, 'msg': '手機已經註冊', 'data': {}}
+2020-06-09 15:46:09,064 test_http_request.py[line:63] INFO 'token'
+2020-06-09 16:00:19,528 do_excel.py[line:24] INFO 2
+2020-06-09 16:00:19,554 do_excel.py[line:39] INFO tel数据类型：<class 'int'>
+2020-06-09 16:00:34,691 do_excel.py[line:44] INFO <class 'str'>
+2020-06-09 16:00:34,692 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500039","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-09 16:00:34,719 test_http_request.py[line:48] INFO 'token'
+2020-06-09 16:00:34,796 test_http_request.py[line:53] INFO 接口返回内容：{'code': 500, 'msg': '手機已經註冊', 'data': {}}
+2020-06-09 16:00:34,796 test_http_request.py[line:63] INFO 'token'
+2020-06-09 16:00:48,346 do_excel.py[line:24] INFO 2
+2020-06-09 16:00:48,371 do_excel.py[line:39] INFO tel数据类型：<class 'int'>
+2020-06-09 16:01:06,985 do_excel.py[line:44] INFO <class 'str'>
+2020-06-09 16:01:06,986 do_excel.py[line:76] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500040","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-09 16:01:07,014 test_http_request.py[line:48] INFO 'token'
+2020-06-09 16:01:07,140 test_http_request.py[line:53] INFO 接口返回内容：{'code': 200, 'msg': '', 'data': {'id': 3816769, 'phone': '18927500040', 'nickname': 'KX500040', 'avatar': 'https://memberfiles.kk1359.com/images/headPortrait/heard_gh10.png', 'state': 1, 'nicknameState': 1, 'roleGroup': 1, 'email': None, 'createTime': '2020-06-09T16:01:34', 'createIp': 0, 'areaCode': '86', 'channel': 999999, 'roles': [{'role': 1, 'level': 0}], 'token': 'e1548e869eb84ea0bee25d16ea30eb8e', 'bindState': False, 'followCount': 0, 'fansCount': 0, 'balance': 0, 'income': 0, 'totalRecharge': 0, 'roleIds': [1], 'privs': ['no_day_chat_limit', 'at_say'], 'groupInfo': {'roleId': 1, 'roleName': '會員', 'showTag': False, 'tagColor': '#FF8E51', 'showTextColor': False, 'textColor': '#FF8E51'}}}
+2020-06-09 16:01:07,140 test_http_request.py[line:58] INFO 登录接口返回的token值：e1548e869eb84ea0bee25d16ea30eb8e
+2020-06-09 16:01:07,140 test_http_request.py[line:63] INFO expected '}' before end of string
+2020-06-09 16:03:45,305 do_excel.py[line:24] INFO 2
+2020-06-09 16:03:45,330 do_excel.py[line:63] INFO tel数据类型：<class 'int'>
+2020-06-09 16:03:52,605 do_excel.py[line:68] INFO <class 'str'>
+2020-06-09 16:03:52,605 do_excel.py[line:75] INFO 读取excel用例数据返回值：[{'id': 1, 'method': 'post', 'url': '/user/register', 'header': '{"Content-Type":"application/json"}', 'data': '{"phone": "18927500041","password":"123456","platform":"kxlive","terminal":"pc","expire":10000,"ip":"183.63.114.61","userAgent":"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36","clientId":"abc","nickName":"${nickName}","smsCode":1234,"areaCode":86}', 'tital': '登录成功', 'expect': 200, 'sheet_name': 'register'}]
+2020-06-09 16:03:52,631 test_http_request.py[line:48] INFO 'token'
+2020-06-09 16:03:52,737 test_http_request.py[line:53] INFO 接口返回内容：{'code': 200, 'msg': '', 'data': {'id': 3816770, 'phone': '18927500041', 'nickname': 'KX500041', 'avatar': 'https://memberfiles.kk1359.com/images/headPortrait/heard_gh10.png', 'state': 1, 'nicknameState': 1, 'roleGroup': 1, 'email': None, 'createTime': '2020-06-09T16:04:19', 'createIp': 0, 'areaCode': '86', 'channel': 999999, 'roles': [{'role': 1, 'level': 0}], 'token': '12018683dd864ca192748d3592dab477', 'bindState': False, 'followCount': 0, 'fansCount': 0, 'balance': 0, 'income': 0, 'totalRecharge': 0, 'roleIds': [1], 'privs': ['no_day_chat_limit', 'at_say'], 'groupInfo': {'roleId': 1, 'roleName': '會員', 'showTag': False, 'tagColor': '#FF8E51', 'showTextColor': False, 'textColor': '#FF8E51'}}}
+2020-06-09 16:03:52,737 test_http_request.py[line:58] INFO 登录接口返回的token值：12018683dd864ca192748d3592dab477
+2020-06-09 16:03:52,737 test_http_request.py[line:63] INFO expected '}' before end of string
+2020-06-09 18:25:26,485 test_http_request.py[line:48] INFO 'token'
+2020-06-09 18:25:26,643 test_http_request.py[line:62] INFO 'token'
+2020-06-09 18:25:32,149 do_excel.py[line:69] INFO <class 'str'>
+2020-06-09 18:25:32,149 do_excel.py[line:69] INFO <class 'str'>
+2020-06-09 18:25:32,150 do_excel.py[line:24] INFO 3
+2020-06-09 18:25:32,150 do_excel.py[line:44] INFO <class 'str'>
+2020-06-09 18:25:32,150 do_excel.py[line:44] INFO <class 'str'>
+2020-06-09 18:25:32,151 do_excel.py[line:24] INFO 2
+2020-06-09 18:25:33,661 test_http_request.py[line:48] INFO 'token'
+2020-06-09 18:25:33,744 test_http_request.py[line:57] INFO 登录接口返回的token值：9323615444b94580b6dbbee1c02bc1d2
+2020-06-09 18:25:33,744 test_http_request.py[line:62] INFO expected '}' before end of string
+2020-06-09 18:25:53,505 test_http_request.py[line:42] INFO 替换后的token值：9323615444b94580b6dbbee1c02bc1d2
+2020-06-09 18:25:53,506 test_http_request.py[line:43] INFO 替换token后header的值：{'Content-Type': 'application/json', 'token': '9323615444b94580b6dbbee1c02bc1d2'}
+2020-06-09 18:25:53,648 test_http_request.py[line:46] INFO 评论接口返回的结果：{'code': 200, 'msg': '', 'data': ''}
+2020-06-09 18:25:53,649 test_http_request.py[line:62] INFO string indices must be integers
+2020-06-09 18:25:54,337 test_http_request.py[line:48] INFO 'token'
+2020-06-09 18:25:54,443 test_http_request.py[line:57] INFO 登录接口返回的token值：739f4a4b93c74a7cae5869b128255655
+2020-06-09 18:25:54,444 test_http_request.py[line:62] INFO expected '}' before end of string
